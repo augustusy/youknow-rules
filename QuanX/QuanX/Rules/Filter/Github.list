@@ -1,0 +1,4 @@
+# github
+USER-AGENT,github*,DIRECT
+HOST-SUFFIX,github.com,DIRECT
+HOST-SUFFIX,githubusercontent.com,DIRECT

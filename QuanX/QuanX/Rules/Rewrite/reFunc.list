@@ -1,0 +1,13 @@
+hostname = ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com
+
+# Netflix显示IMDb、douaban评分
+^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header nf_rating.js
+^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body nf_rating.js
+
+# 京东显示历史价格
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
+
+# 淘宝显示历史价格
+# 不生效或失效的需要卸载淘宝重装，注意不开脚本进淘宝会失效
+^http://.+/amdc/mobileDispatch url script-request-body tb_price.js
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body tb_price.js

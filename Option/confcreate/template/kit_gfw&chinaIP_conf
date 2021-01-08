@@ -1,0 +1,1029 @@
+## Github: https://github.com/augustusy/youknow-rules/
+
+[Rule]
+## DNS
+IP-CIDR,1.1.1.1/32,PROXY
+IP-CIDR,1.0.0.1/32,PROXY
+IP-CIDR,8.8.8.8/32,PROXY
+IP-CIDR,8.8.4.4/32,PROXY
+#IP-CIDR,208.67.222.222/32,PROXY
+#IP-CIDR,208.67.220.220/32,PROXY
+
+
+## 广告屏蔽
+# 常见广告域名屏蔽
+DOMAIN-KEYWORD,admarvel,REJECT
+DOMAIN-KEYWORD,admaster,REJECT
+DOMAIN-KEYWORD,admdfs,REJECT
+DOMAIN-KEYWORD,adnewnc,REJECT
+DOMAIN-KEYWORD,adsage,REJECT
+DOMAIN-KEYWORD,adsame,REJECT
+DOMAIN-KEYWORD,adsensor,REJECT
+DOMAIN-KEYWORD,adserver,REJECT
+DOMAIN-KEYWORD,adservice,REJECT
+DOMAIN-KEYWORD,adserving,REJECT
+DOMAIN-KEYWORD,adsmogo,REJECT
+DOMAIN-KEYWORD,adspace,REJECT
+DOMAIN-KEYWORD,adspaces,REJECT
+DOMAIN-KEYWORD,adsrvmedia,REJECT
+DOMAIN-KEYWORD,adsserving,REJECT
+DOMAIN-KEYWORD,advert,REJECT
+DOMAIN-KEYWORD,advertiser,REJECT
+DOMAIN-KEYWORD,advertising,REJECT
+DOMAIN-KEYWORD,adwords,REJECT
+DOMAIN-KEYWORD,allyes,REJECT
+DOMAIN-KEYWORD,analytic,REJECT
+DOMAIN-KEYWORD,analytics,REJECT
+DOMAIN-KEYWORD,analysis,REJECT
+DOMAIN-KEYWORD,analysys,REJECT
+DOMAIN-KEYWORD,applovin,REJECT
+DOMAIN-KEYWORD,dnserror,REJECT
+DOMAIN-KEYWORD,domob,REJECT
+DOMAIN-KEYWORD,duomeng,REJECT
+DOMAIN-KEYWORD,dwtrack,REJECT
+DOMAIN-KEYWORD,googleads,REJECT
+DOMAIN-KEYWORD,guanggao,REJECT
+DOMAIN-KEYWORD,inmobi,REJECT
+DOMAIN-KEYWORD,lianmeng,REJECT
+DOMAIN-KEYWORD,mobaders,REJECT
+DOMAIN-KEYWORD,omgmta,REJECT
+DOMAIN-KEYWORD,openx,REJECT
+DOMAIN-KEYWORD,partnerad,REJECT
+DOMAIN-KEYWORD,securepubads,REJECT
+DOMAIN-KEYWORD,shuzilm,REJECT
+DOMAIN-KEYWORD,socdm,REJECT
+DOMAIN-KEYWORD,supersonicads,REJECT
+DOMAIN-KEYWORD,taboola,REJECT
+DOMAIN-KEYWORD,talkingdata,REJECT
+DOMAIN-KEYWORD,uedas,REJECT
+DOMAIN-KEYWORD,umeng,REJECT
+DOMAIN-KEYWORD,umengcloud,REJECT
+DOMAIN-KEYWORD,umtrack,REJECT
+DOMAIN-KEYWORD,wlmonitor,REJECT
+DOMAIN-KEYWORD,zjtoolbar,REJECT
+DOMAIN-KEYWORD,zeroredirect,REJECT
+
+DOMAIN-KEYWORD,adserv,REJECT
+DOMAIN-KEYWORD,adsrv.,REJECT
+DOMAIN-KEYWORD,adsrv2.,REJECT
+DOMAIN-KEYWORD,adtrack.,REJECT
+DOMAIN-KEYWORD,adstrack.,REJECT
+DOMAIN-KEYWORD,adimg,REJECT
+DOMAIN-KEYWORD,adimages,REJECT
+
+#__PeterLowelist__#
+
+# 自定义Reject Rules
+DOMAIN-SUFFIX,42trck.com,REJECT
+DOMAIN-SUFFIX,51.la,REJECT
+DOMAIN-SUFFIX,5nt1gx7o57.com,REJECT
+DOMAIN-SUFFIX,ablehed.pro,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
+DOMAIN-SUFFIX,adthor.com,REJECT
+DOMAIN-SUFFIX,adccache.cn,REJECT
+DOMAIN-SUFFIX,admaster.com.cn,REJECT
+DOMAIN-SUFFIX,adsensor.org,REJECT
+DOMAIN-SUFFIX,adtarget.tech,REJECT
+DOMAIN-SUFFIX,aerserv.com,REJECT
+DOMAIN-SUFFIX,api.appsee.com,REJECT
+DOMAIN-SUFFIX,app-adforce.jp,REJECT
+DOMAIN-SUFFIX,appadhoc.com,REJECT
+DOMAIN-SUFFIX,appier.net,REJECT
+DOMAIN-SUFFIX,appsflyer.com,REJECT
+DOMAIN-SUFFIX,apsalar.com,REJECT
+DOMAIN-SUFFIX,apxadtracking.net,REJECT
+DOMAIN-SUFFIX,browserr.top,REJECT
+DOMAIN-SUFFIX,cloudmobi.net,REJECT
+DOMAIN-SUFFIX,cnzz.com,REJECT
+DOMAIN-SUFFIX,ctrmi.com,REJECT
+DOMAIN-SUFFIX,data.flurry.com,REJECT
+DOMAIN-SUFFIX,dspunion.com,REJECT
+DOMAIN-SUFFIX,exosrv.com,REJECT
+DOMAIN-SUFFIX,fabrkrup.com,REJECT
+DOMAIN-SUFFIX,fkbwtoopwg.com,REJECT
+DOMAIN-SUFFIX,ggwan.com,REJECT
+DOMAIN-SUFFIX,go2cloud.org,REJECT
+DOMAIN-SUFFIX,growingio.com,REJECT
+DOMAIN-SUFFIX,haloapps.com,REJECT
+DOMAIN-SUFFIX,hgub2polye.co,REJECT
+DOMAIN-SUFFIX,irs01.com,REJECT
+DOMAIN-SUFFIX,iskyworker.com,REJECT
+DOMAIN-SUFFIX,juicyads.com,REJECT
+DOMAIN-SUFFIX,kochava.com,REJECT
+DOMAIN-SUFFIX,lenzmx.com,REJECT
+DOMAIN-SUFFIX,lnk0.com,REJECT
+DOMAIN-SUFFIX,lnk8.cn,REJECT
+DOMAIN-SUFFIX,measurementapi.com,REJECT
+DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-SUFFIX,moatads.com,REJECT
+DOMAIN-SUFFIX,mopub.com,REJECT
+DOMAIN-SUFFIX,onelink.me,REJECT
+DOMAIN-SUFFIX,pgdt.ugdtimg.com,REJECT
+DOMAIN-SUFFIX,popads.net,REJECT
+DOMAIN-SUFFIX,push-notifications.top,REJECT
+DOMAIN-SUFFIX,qchannel01.cn,REJECT
+DOMAIN-SUFFIX,rayjump.com,REJECT
+DOMAIN-SUFFIX,remarketingpixel.com,REJECT
+DOMAIN-SUFFIX,rubiconproject.com,REJECT
+DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+DOMAIN-SUFFIX,sdkclick.com,REJECT
+DOMAIN-SUFFIX,smaato.net,REJECT
+DOMAIN-SUFFIX,smartadserver.com,REJECT
+DOMAIN-SUFFIX,smartnews-ads.com,REJECT
+DOMAIN-SUFFIX,stunninglover.com,REJECT
+DOMAIN-SUFFIX,tanv.com,REJECT
+DOMAIN-SUFFIX,tanx.com,REJECT
+DOMAIN-SUFFIX,trafficstars.com,REJECT
+DOMAIN-SUFFIX,tsyndicate.com,REJECT
+DOMAIN-SUFFIX,tutupop.com,REJECT
+DOMAIN-SUFFIX,uri6.com,REJECT
+DOMAIN-SUFFIX,u.thsi.cn/imgsrc/blog/,REJECT
+DOMAIN-SUFFIX,voicefive.com,REJECT
+DOMAIN-SUFFIX,vungle.com,REJECT
+DOMAIN-SUFFIX,xdrig.com,REJECT
+DOMAIN-SUFFIX,zcoup.com,REJECT
+
+DOMAIN-SUFFIX,a.adnium.com,REJECT
+DOMAIN,abema-adx.ameba.jp,REJECT
+DOMAIN,ad.51wnl-cq.com,REJECT
+DOMAIN,adextra.51wnl-cq.com,REJECT
+DOMAIN,ad.caiyunapp.com,REJECT
+DOMAIN,ad.hzyoka.com,REJECT
+DOMAIN,ad.jiemian.com,REJECT
+DOMAIN,ad.wappalyzer.com,REJECT
+DOMAIN,ad-cn.jovcloud.com,REJECT
+DOMAIN,ads.weilitoutiao.net,REJECT
+DOMAIN,adsapi.manhuaren.com,REJECT
+DOMAIN,adsdk.dmzj.com,REJECT
+DOMAIN,adserver.pandora.com,REJECT
+DOMAIN,adui.tg.meitu.com,REJECT
+DOMAIN,adv.bandi.so,REJECT
+DOMAIN,adxserver.ad.cmvideo.cn,REJECT
+DOMAIN,app-ad.variflight.com,REJECT
+DOMAIN,applog.mobike.com,REJECT
+DOMAIN,appnext.hs.llnwd.net,REJECT
+DOMAIN,ggs.myzaker.com,REJECT
+DOMAIN,itad.linetv.tw,REJECT
+DOMAIN,ja.chushou.tv,REJECT
+DOMAIN,log.snssdk.com,REJECT
+DOMAIN,log.star.ele.me,REJECT
+DOMAIN,log.umsns.com,REJECT
+DOMAIN,log.voicecloud.cn,REJECT
+DOMAIN,log.ys7.com,REJECT
+DOMAIN,mads.suning.com,REJECT
+DOMAIN,mopnativeadv.037201.com,REJECT
+DOMAIN,nativeadv.dftoutiao.com,REJECT
+DOMAIN,optimus-ads.amap.com,REJECT
+DOMAIN,s0.2mdn.net,REJECT
+DOMAIN-SUFFIX,ssl2.duapps.com,REJECT
+DOMAIN,static.vuevideo.net,REJECT
+DOMAIN,stats.umsns.com,REJECT
+DOMAIN,trackapp.guahao.cn,REJECT
+DOMAIN,wgo.mmstat.com,REJECT
+
+# 【0~9】
+# > 10010
+DOMAIN,ad.10010.com,REJECT
+# > 12306
+DOMAIN-SUFFIX,sz.trip.com,REJECT
+DOMAIN-SUFFIX,ad.12306.cn,REJECT
+# > 58 同城
+DOMAIN,adshow.58.com,REJECT
+DOMAIN,track.58.com,REJECT
+DOMAIN,tracklog.58.com,REJECT
+# 【A】
+# > Apple
+DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+# > Alibaba
+DOMAIN,acs4baichuan.m.taobao.com,REJECT
+DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,adash.man.aliyuncs.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adash-c.ut.taobao.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,adashx4yt.m.taobao.com,REJECT
+DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
+DOMAIN,tunion-api.m.taobao.com,REJECT
+# > AutoHome汽车之家
+DOMAIN,adproxy.autohome.com.cn,REJECT
+DOMAIN,rd.autohome.com.cn,REJECT
+DOMAIN,al.autohome.com.cn,REJECT
+DOMAIN,applogapi.autohome.com.cn,REJECT
+# > Amazon亚马逊
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+DOMAIN-SUFFIX,advertising.amazon.com,REJECT
+# 【B】
+# > Baidu
+DOMAIN-SUFFIX,baidustatic.com,REJECT
+DOMAIN-SUFFIX,cpro.baidu.com,REJECT
+DOMAIN-SUFFIX,pos.baidu.com,REJECT
+DOMAIN,afd.baidu.com,REJECT
+DOMAIN,als.baidu.com,REJECT
+DOMAIN,duclick.baidu.com,REJECT
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT
+DOMAIN,mobads.baidu.com,REJECT
+DOMAIN,mobads-logs.baidu.com,REJECT
+DOMAIN,nsclick.baidu.com,REJECT
+# > ByteDance
+DOMAIN,applog.musical.ly,REJECT
+DOMAIN,track.toutiao.com,REJECT
+DOMAIN,xlog.snssdk.com,REJECT
+DOMAIN,xlog-va.byteoversea.com,REJECT
+# > BitAuto
+DOMAIN,adx.yiche.com,REJECT
+DOMAIN,log.ycapp.yiche.com,REJECT
+# > BikaCG
+DOMAIN-KEYWORD,ad-channel,REJECT
+DOMAIN-KEYWORD,ad-display,REJECT
+DOMAIN,ads.wakamoment.tk,REJECT
+DOMAIN,ads.wakamoment.ga,REJECT
+# > 百词斩
+DOMAIN,advertise.baicizhan.org,REJECT
+DOMAIN,advertise.baicizhan.com,REJECT
+# 【C】
+# > CNTV
+DOMAIN,galaxy.bjcathay.com,REJECT
+DOMAIN,mdrecv.app.cntvwb.cn,REJECT
+DOMAIN,sdapprecv.app.cntvwb.cn,REJECT
+DOMAIN,vdapprecv.app.cntvwb.cn,REJECT
+# > ChinaNet
+DOMAIN,admarket.21cn.com,REJECT
+DOMAIN,adshows.21cn.com,REJECT
+# > 车来了
+DOMAIN,atrace.chelaile.net.cn,REJECT
+DOMAIN,logs.chelaile.net.cn,REJECT
+# 【D】
+# > daydaycook日日煮
+DOMAIN,ads.daydaycook.com.cn,REJECT
+# > daum
+DOMAIN-SUFFIX,ad.daum.net,REJECT
+DOMAIN,track.tiara.daum.net,REJECT
+# 【E】
+# 【F】
+# 【G】
+# > Google
+DOMAIN-SUFFIX,ads.google.com,REJECT
+DOMAIN-SUFFIX,afd.l.google.com,REJECT
+DOMAIN-SUFFIX,badad.googleplex.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,doubleclick.com,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+DOMAIN-SUFFIX,google-analytics.com,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN-SUFFIX,mobileads.google.com,REJECT
+DOMAIN-SUFFIX,pagead.google.com,REJECT
+DOMAIN-SUFFIX,pagead.l.google.com,REJECT
+DOMAIN-SUFFIX,pagead-tpc.l.google.com,REJECT
+DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
+# 【H】
+# > HunanTV
+DOMAIN-SUFFIX,da.mgtv.com,REJECT
+DOMAIN-SUFFIX,da.hunantv.com,REJECT
+DOMAIN-SUFFIX,log.hunantv.com,REJECT
+DOMAIN,log.v2.hunantv.com,REJECT
+DOMAIN,v2.log.hunantv.com,REJECT
+# > 花椒直播
+DOMAIN,ad.huajiao.com,REJECT
+# > 虎扑
+DOMAIN,adx.hupu.com,REJECT
+DOMAIN,adx-api.hupu.com,REJECT
+# 【I】
+# > iQiyi爱奇异
+DOMAIN,ifacelog.iqiyi.com,REJECT
+DOMAIN,msg.71.am,REJECT
+DOMAIN,msg.qy.net,REJECT
+DOMAIN,t7z.cupid.iqiyi.com,REJECT
+IP-CIDR,101.227.97.240/32,REJECT,no-resolve
+IP-CIDR,101.227.200.11/32,REJECT,no-resolve
+IP-CIDR,101.227.200.28/32,REJECT,no-resolve
+IP-CIDR,124.192.153.42/32,REJECT,no-resolve
+# > Ifeng
+DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
+DOMAIN,api.newad.ifeng.com,REJECT
+DOMAIN,ifengad.3g.ifeng.com,REJECT
+# 【J】
+# > 极光
+DOMAIN,static.jpush.cn,REJECT
+DOMAIN,stats.jpush.cn,REJECT
+DOMAIN,report.jpush.cn,REJECT
+# 【K】
+# > 酷狗 & 酷我
+DOMAIN,adserviceretry.kugou.com,REJECT
+DOMAIN,ads.service.kugou.com,REJECT
+DOMAIN,adsfile.bssdlbig.kugou.com,REJECT
+DOMAIN,g.koowo.com,REJECT
+DOMAIN,log.stat.kugou.com,REJECT
+DOMAIN,log.web.kugou.com,REJECT
+DOMAIN,log.kuwo.cn,REJECT
+DOMAIN,kgmobilestat.kugou.com,REJECT
+DOMAIN,kgmobilestatbak.kugou.com,REJECT
+DOMAIN,mobilelog.kugou.com,REJECT
+DOMAIN,mobilead.kuwo.cn,REJECT
+DOMAIN,rich.kuwo.cn,REJECT
+# > Kingsoft金山
+DOMAIN,ad-stat.ksosoft.com,REJECT
+DOMAIN,img.auction-ads.wpscdn.cn,REJECT
+DOMAIN,minfo.wps.cn,REJECT
+# > KaKao
+DOMAIN,track.tiara.kakao.com,REJECT
+# 【L】
+# > 乐视
+DOMAIN-SUFFIX,webp2p.letv.com,REJECT
+DOMAIN,ark.letv.com,REJECT
+DOMAIN,emma-414870e223.huodonghezi.com,REJECT
+DOMAIN,g3.letv.com,REJECT
+DOMAIN,n.mark.letv.com,REJECT
+# 【M】
+# > 墨迹天气
+DOMAIN,ad.api.moji.com,REJECT
+DOMAIN,adlaunch.moji.com,REJECT
+DOMAIN,ads.mojicdn.com,REJECT
+DOMAIN,v1.log.moji.com,REJECT
+# > 美团
+DOMAIN,wmlog.meituan.com,REJECT
+# > 蘑菇街
+DOMAIN,traffic.mogujie.com,REJECT
+# 【N】
+# > NetEase网易
+DOMAIN,ad.bn.netease.com,REJECT
+DOMAIN,ad.yixin.im,REJECT
+DOMAIN,admusicpic.music.126.net,REJECT
+DOMAIN,iadmat.nosdn.127.net,REJECT
+DOMAIN,iadmusicmat.music.126.net,REJECT
+DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+DOMAIN,impservice.dictapp.youdao.com,REJECT
+DOMAIN,impservice.youdao.com,REJECT
+DOMAIN,log.yex.youdao.com,REJECT
+DOMAIN,log-yex.youdao.com,REJECT
+DOMAIN,n.3g.163.com,REJECT
+DOMAIN,nex.163.com,REJECT
+DOMAIN,yt-adp.nosdn.127.net,REJECT
+# 【P】
+# > 浦发银行
+DOMAIN,video.spdbccc.com.cn,REJECT #浦发银行app启动视频
+# > PPTV
+DOMAIN,ads.aplus.pptv.com,REJECT
+DOMAIN,ads.aplusapi.pptv.com,REJECT
+DOMAIN,asimgs.pplive.cn,REJECT
+DOMAIN,de.as.pptv.com,REJECT
+# > Photoable
+DOMAIN,regist.fotoable.com,REJECT
+DOMAIN,cdn.adapi.fotoable.com,REJECT
+# > PeanutWiFiMpass
+DOMAIN,adnew.wifi8.com,REJECT
+DOMAIN,adfile.wifi8.com,REJECT
+# 【Q】
+# > QingtingFM
+DOMAIN,ad.qingting.fm,REJECT
+# 【S】
+# > Sina新浪
+DOMAIN,u1.img.mobile.sina.cn,REJECT
+DOMAIN,sax.sina.com.cn,REJECT
+DOMAIN,saxs.sina.com.cn,REJECT
+DOMAIN,saxn.sina.com.cn,REJECT
+# > Sohu搜狐
+DOMAIN-SUFFIX,ads.sohu.com,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN,imp.optaim.com,REJECT
+DOMAIN,v2.reachmax.cn,REJECT
+DOMAIN,track.sohu.com,REJECT
+DOMAIN,hui.sohu.com,REJECT
+# 【T】
+# > Tencent腾讯
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-SUFFIX,rqd.qq.com,REJECT
+DOMAIN,adsmind.tc.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
+DOMAIN,mtrace.qq.com,REJECT
+DOMAIN,oth.eve.mdt.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,pingma.qq.com,REJECT
+DOMAIN,pingtcss.qq.com,REJECT
+DOMAIN,splashqqlive.gtimg.com,REJECT
+DOMAIN,tajs.qq.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+# > The Paper
+DOMAIN,imgadpai.thepaper.cn,REJECT
+DOMAIN,admonitor.thepaper.cn,REJECT
+# > Thunder迅雷
+DOMAIN,adsp.xunlei.com,REJECT
+DOMAIN,etl.xlmc.sandai.net,REJECT
+# > 同花顺
+DOMAIN,adm.10jqka.com.cn,REJECT
+DOMAIN,stat.10jqka.com.cn,REJECT
+# > 太平洋
+DOMAIN,ad-analysis.pconline.com.cn,REJECT
+DOMAIN,iad0ssl.pcauto.com.cn,REJECT
+DOMAIN,iad0ssl.pconline.com.cn,REJECT
+DOMAIN,imgad0.pcauto.com.cn,REJECT
+DOMAIN,imgad0.pconline.com.cn,REJECT
+DOMAIN,ivy.pchouse.com.cn,REJECT
+# > tutuapp
+DOMAIN-SUFFIX,asdkd.tutuapp.com,REJECT
+DOMAIN-SUFFIX,asdkd-tutuapp-com.tutuapp.net,REJECT
+# 【U】
+# > UC
+DOMAIN,adtrack.ucweb.com,REJECT
+DOMAIN,applogios.uc.cn,REJECT
+DOMAIN,track.uc.cn,REJECT
+# 【W】
+# > WiFi 万能钥匙
+DOMAIN,a.wkanx.com,REJECT
+DOMAIN,cwx.lianwangtech.com,REJECT
+DOMAIN,c1wx.lianwangtech.com,REJECT
+# 【X】
+# > 小米
+DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,admob.xiaomi.com,REJECT
+DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
+DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
+DOMAIN-SUFFIX,tracking.miui.com,REJECT
+DOMAIN,adv.sec.miui.com,REJECT
+DOMAIN,adv.sec.intl.miui.com,REJECT
+DOMAIN,o2o.api.xiaomi.com,REJECT
+# > 喜马拉雅
+DOMAIN-SUFFIX,fdfs.xmcdn.com,REJECT
+DOMAIN,ad.ximalaya.com,REJECT
+DOMAIN,adse.ximalaya.com,REJECT
+DOMAIN,adse.wsa.ximalaya.com,REJECT
+DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
+# > 小红书
+DOMAIN,t-ads.xiaohongshu.com,REJECT
+DOMAIN,apm-track.xiaohongshu.com,REJECT
+# > 下厨房
+DOMAIN-SUFFIX,track.xiachufang.com,REJECT
+# 【Y】
+# > Youku优酷
+DOMAIN-SUFFIX,atm.youku.com,REJECT
+DOMAIN,ad.mobile.youku.com,REJECT
+DOMAIN,iyes.youku.com,REJECT
+# 【Z】
+# > ZOL
+DOMAIN,apppv.zol.com.cn,REJECT
+DOMAIN,pvnapp.zol.com.cn,REJECT
+# > 知乎
+DOMAIN,sugar.zhihu.com,REJECT
+
+
+##Apple
+
+# 通用部分
+DOMAIN,evintl-ocsp.verisign.com,DIRECT
+DOMAIN,evsecure-ocsp.verisign.com,DIRECT
+DOMAIN,beta.itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,apple.cn,DIRECT
+DOMAIN-SUFFIX,apple.co,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-KEYWORD,crashlytics,REJECT # Iphone程序崩溃记录反馈
+
+# iTunes 与 App Store
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,itunes.com,DIRECT
+DOMAIN-SUFFIX,appstore.com,DIRECT
+USER-AGENT,AppStore*,DIRECT
+USER-AGENT,com.apple.appstored*,DIRECT
+PROCESS-NAME,storedownloadd,DIRECT
+
+# 其他服务
+DOMAIN,gs.apple.com,DIRECT
+DOMAIN-SUFFIX,me.com,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+DOMAIN-SUFFIX,akadns.net,DIRECT
+DOMAIN-SUFFIX,aaplimg.com,DIRECT
+DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,appleiphonecell.com,DIRECT
+DOMAIN-SUFFIX,appsto.re,DIRECT
+DOMAIN-SUFFIX,symcb.com,DIRECT
+DOMAIN-SUFFIX,symcd.com,DIRECT
+
+
+## 常见UA
+USER-AGENT,*%E9%93%B6%E8%A1%8C*,DIRECT #银行
+USER-AGENT,*%E6%89%8B%E6%9C%BA%E9%93%B6%E8%A1%8C*,DIRECT #手机银行
+
+USER-AGENT,Argo*,PROXY
+USER-AGENT,Anime*,PROXY
+USER-AGENT,AbemaTV*,PROXY
+USER-AGENT,BBCiPlayer*,PROXY
+USER-AGENT,BikaCG*,PROXY
+USER-AGENT,com.google.ios.youtube*,PROXY
+USER-AGENT,com.kktv*,PROXY
+USER-AGENT,encoreTVB*,PROXY
+USER-AGENT,Facebook*,PROXY
+USER-AGENT,FOX%20NOW*,PROXY
+USER-AGENT,FOXPlus*,PROXY
+USER-AGENT,Gmail*,PROXY
+USER-AGENT,HBO%20NOW*,PROXY
+USER-AGENT,Instagram*,PROXY
+USER-AGENT,InstantVideo.US*,PROXY
+USER-AGENT,JOOX*,PROXY
+USER-AGENT,KakaoTalk*,PROXY
+USER-AGENT,KT*,PROXY
+USER-AGENT,KKTV*,PROXY
+USER-AGENT,Line*,PROXY
+USER-AGENT,mytv*,PROXY
+USER-AGENT,Pinterest*,PROXY
+USER-AGENT,Prime%20Video*,PROXY
+USER-AGENT,PBS*,PROXY
+USER-AGENT,Prime%20Video*,PROXY
+USER-AGENT,*Proxy*,PROXY
+USER-AGENT,Speedtest*,DIRECT
+USER-AGENT,SoundCloud*,PROXY
+USER-AGENT,Telegram*,PROXY
+USER-AGENT,Twitter*,PROXY
+USER-AGENT,Tumblr*,PROXY
+USER-AGENT,ViuTV*,PROXY
+USER-AGENT,Wallet*,DIRECT
+USER-AGENT,WhatsApp*,PROXY
+USER-AGENT,WeMusic*,PROXY
+USER-AGENT,*youtube*,PROXY
+USER-AGENT,YouTube*,PROXY
+USER-AGENT,*YouTubeMusic*,PROXY
+
+
+## 国内常见域名
+
+
+## chinaIP
+#__CHINAIP__#
+
+## App补充（规则优先级高于GFWLIST）
+# github
+#DOMAIN-SUFFIX,github.com,github
+
+# Kakao Talk
+DOMAIN-SUFFIX,kakao.co.kr,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kakao.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kakaocdn.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kakaocorp.com,PROXY,force-remote-dns
+IP-CIDR,1.201.0.0/24,PROXY,no-resolve
+IP-CIDR,27.0.236.0/22,PROXY,no-resolve
+IP-CIDR,103.27.148.0/22,PROXY,no-resolve
+IP-CIDR,103.66.192.0/22,PROXY,no-resolve
+IP-CIDR,103.246.56.0/22,PROXY,no-resolve
+IP-CIDR,103.254.248.0/22,PROXY,no-resolve
+IP-CIDR,110.76.140.0/22,PROXY,no-resolve
+IP-CIDR,113.61.104.0/22,PROXY,no-resolve
+IP-CIDR,182.171.67.208/28,PROXY,no-resolve
+
+# LINE Corporation
+DOMAIN-SUFFIX,lin.ee,PROXY,force-remote-dns
+DOMAIN-SUFFIX,line.me,PROXY,force-remote-dns
+DOMAIN-SUFFIX,line.naver.jp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,line-apps.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,line-cdn.net,PROXY
+DOMAIN-SUFFIX,line-scdn.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nhncorp.jp,PROXY
+DOMAIN-SUFFIX,linecorp.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,linetv.tw,PROXY,force-remote-dns
+IP-CIDR,103.2.30.0/23,PROXY,no-resolve
+IP-CIDR,125.209.208.0/20,PROXY,no-resolve
+IP-CIDR,147.92.128.0/17,PROXY,no-resolve
+IP-CIDR,203.104.144.0/21,PROXY,no-resolve
+
+# MytvSUPER
+DOMAIN-KEYWORD,nowtv100,PROXY
+DOMAIN-KEYWORD,rthklive,PROXY
+DOMAIN-SUFFIX,mytvsuper.com,PROXY
+DOMAIN-SUFFIX,tvb.com,PROXY
+
+# Netflix
+DOMAIN,netflix.com.edgesuite.net,PROXY
+DOMAIN-SUFFIX,netflix.com,PROXY
+DOMAIN-SUFFIX,netflix.net,PROXY
+DOMAIN-SUFFIX,nflxext.com,PROXY
+DOMAIN-SUFFIX,nflximg.com,PROXY
+DOMAIN-SUFFIX,nflximg.net,PROXY
+DOMAIN-SUFFIX,nflxso.net,PROXY
+DOMAIN-SUFFIX,nflxvideo.net,PROXY
+IP-CIDR,108.175.32.0/20,PROXY,no-resolve
+IP-CIDR,185.2.220.0/22,PROXY,no-resolve
+IP-CIDR,185.9.188.0/22,PROXY,no-resolve
+IP-CIDR,192.173.64.0/18,PROXY,no-resolve
+IP-CIDR,198.38.96.0/19,PROXY,no-resolve
+IP-CIDR,198.45.48.0/20,PROXY,no-resolve
+IP-CIDR,203.75.84.0/24,PROXY,no-resolve
+IP-CIDR,203.198.13.0/24,PROXY,no-resolve
+IP-CIDR,203.198.80.0/24,PROXY,no-resolve
+IP-CIDR,207.45.72.0/22,PROXY,no-resolve
+IP-CIDR,208.75.76.0/22,PROXY,no-resolve
+IP-CIDR,210.0.153.0/24,PROXY,no-resolve
+IP-CIDR,23.246.0.0/18,PROXY,no-resolve
+IP-CIDR,37.77.184.0/21,PROXY,no-resolve
+IP-CIDR,45.57.0.0/17,PROXY,no-resolve
+IP-CIDR,52.24.178.0/24,PROXY,no-resolve
+IP-CIDR,52.35.140.0/24,PROXY,no-resolve
+IP-CIDR,54.213.167.0/24,PROXY,no-resolve
+IP-CIDR,64.120.128.0/17,PROXY,no-resolve
+IP-CIDR,66.197.128.0/17,PROXY,no-resolve
+IP-CIDR,69.53.224.0/19,PROXY,no-resolve
+IP-CIDR,8.41.4.0/24,PROXY,no-resolve
+
+# Spark
+DOMAIN-SUFFIX,api.amplitude.com,PROXY
+DOMAIN-SUFFIX,app.smartmailcloud.com,PROXY
+DOMAIN-SUFFIX,firebaseio.com,PROXY
+DOMAIN-SUFFIX,gate.hockeyapp.net,PROXY
+
+# steam
+DOMAIN-SUFFIX,steampowered.com,PROXY
+DOMAIN-SUFFIX,steamcommunity.com,PROXY
+DOMAIN-SUFFIX,akamaihd.net,PROXY
+DOMAIN-SUFFIX,steamstatic.com,PROXY
+
+# Spotify
+DOMAIN-KEYWORD,spotify,PROXY
+DOMAIN-SUFFIX,spotify.com,PROXY
+DOMAIN-SUFFIX,scdn.co,PROXY
+DOMAIN-SUFFIX,pscdn.co,PROXY
+DOMAIN-SUFFIX,spotify.com.edgesuite.net,PROXY
+DOMAIN-SUFFIX,spoti.fi,PROXY
+
+# SpeedTest
+USER-AGENT,Speedtest*,DIRECT
+DOMAIN-SUFFIX,speedtest.net,DIRECT
+DOMAIN-SUFFIX,ooklaserver.net,DIRECT
+
+# Telegram
+DOMAIN-SUFFIX,t.me,PROXY,force-remote-dns
+DOMAIN-SUFFIX,tdesktop.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,telegra.ph,PROXY,force-remote-dns
+DOMAIN-SUFFIX,telegram.me,PROXY,force-remote-dns
+DOMAIN-SUFFIX,telegram.org,PROXY,force-remote-dns
+DOMAIN-SUFFIX,telesco.pe,PROXY,force-remote-dns
+IP-CIDR,91.108.4.0/22,PROXY,no-resolve
+IP-CIDR,91.108.8.0/22,PROXY,no-resolve
+IP-CIDR,91.108.12.0/22,PROXY,no-resolve
+IP-CIDR,91.108.16.0/22,PROXY,no-resolve
+IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+IP-CIDR,109.239.140.0/24,PROXY,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+IP-CIDR,149.154.164.0/22,PROXY,no-resolve
+IP-CIDR,149.154.168.0/22,PROXY,no-resolve
+IP-CIDR,149.154.172.0/22,PROXY,no-resolve
+IP-CIDR,205.172.60.0/22,PROXY,no-resolve
+
+# Whatsapp
+IP-CIDR,31.13.64.51/32,PROXY,no-resolve
+IP-CIDR,31.13.65.49/32,PROXY,no-resolve
+IP-CIDR,31.13.66.49/32,PROXY,no-resolve
+IP-CIDR,31.13.68.52/32,PROXY,no-resolve
+IP-CIDR,31.13.69.240/32,PROXY,no-resolve
+IP-CIDR,31.13.70.49/32,PROXY,no-resolve
+IP-CIDR,31.13.71.49/32,PROXY,no-resolve
+IP-CIDR,31.13.72.52/32,PROXY,no-resolve
+IP-CIDR,31.13.73.49/32,PROXY,no-resolve
+IP-CIDR,31.13.74.49/32,PROXY,no-resolve
+IP-CIDR,31.13.75.52/32,PROXY,no-resolve
+IP-CIDR,31.13.76.81/32,PROXY,no-resolve
+IP-CIDR,31.13.77.49/32,PROXY,no-resolve
+IP-CIDR,31.13.78.53/32,PROXY,no-resolve
+IP-CIDR,31.13.80.53/32,PROXY,no-resolve
+IP-CIDR,31.13.81.53/32,PROXY,no-resolve
+IP-CIDR,31.13.82.51/32,PROXY,no-resolve
+IP-CIDR,31.13.83.51/32,PROXY,no-resolve
+IP-CIDR,31.13.84.51/32,PROXY,no-resolve
+IP-CIDR,31.13.85.51/32,PROXY,no-resolve
+IP-CIDR,31.13.86.51/32,PROXY,no-resolve
+IP-CIDR,31.13.87.51/32,PROXY,no-resolve
+IP-CIDR,31.13.88.49/32,PROXY,no-resolve
+IP-CIDR,31.13.90.51/32,PROXY,no-resolve
+IP-CIDR,31.13.91.51/32,PROXY,no-resolve
+IP-CIDR,31.13.92.52/32,PROXY,no-resolve
+IP-CIDR,31.13.93.51/32,PROXY,no-resolve
+IP-CIDR,31.13.94.52/32,PROXY,no-resolve
+IP-CIDR,31.13.95.63/32,PROXY,no-resolve
+IP-CIDR,50.22.198.204/30,PROXY,no-resolve
+IP-CIDR,50.22.210.32/30,PROXY,no-resolve
+IP-CIDR,50.22.210.128/27,PROXY,no-resolve
+IP-CIDR,50.22.225.64/27,PROXY,no-resolve
+IP-CIDR,50.22.235.248/30,PROXY,no-resolve
+IP-CIDR,50.22.240.160/27,PROXY,no-resolve
+IP-CIDR,50.23.90.128/27,PROXY,no-resolve
+IP-CIDR,50.97.57.128/27,PROXY,no-resolve
+IP-CIDR,75.126.39.32/27,PROXY,no-resolve
+IP-CIDR,108.168.174.0/27,PROXY,no-resolve
+IP-CIDR,108.168.176.192/26,PROXY,no-resolve
+IP-CIDR,108.168.177.0/27,PROXY,no-resolve
+IP-CIDR,108.168.180.96/27,PROXY,no-resolve
+IP-CIDR,108.168.254.65/32,PROXY,no-resolve
+IP-CIDR,108.168.255.224/32,PROXY,no-resolve
+IP-CIDR,108.168.255.227/32,PROXY,no-resolve
+IP-CIDR,157.240.0.53/32,PROXY,no-resolve
+IP-CIDR,157.240.1.53/32,PROXY,no-resolve
+IP-CIDR,157.240.2.53/32,PROXY,no-resolve
+IP-CIDR,157.240.3.53/32,PROXY,no-resolve
+IP-CIDR,157.240.6.53/32,PROXY,no-resolve
+IP-CIDR,157.240.7.54/32,PROXY,no-resolve
+IP-CIDR,157.240.8.53/32,PROXY,no-resolve
+IP-CIDR,157.240.9.53/32,PROXY,no-resolve
+IP-CIDR,157.240.10.53/32,PROXY,no-resolve
+IP-CIDR,157.240.11.53/32,PROXY,no-resolve
+IP-CIDR,157.240.12.53/32,PROXY,no-resolve
+IP-CIDR,157.240.13.54/32,PROXY,no-resolve
+IP-CIDR,158.85.0.96/27,PROXY,no-resolve
+IP-CIDR,158.85.5.192/27,PROXY,no-resolve
+IP-CIDR,158.85.46.128/27,PROXY,no-resolve
+IP-CIDR,158.85.48.224/27,PROXY,no-resolve
+IP-CIDR,158.85.58.0/25,PROXY,no-resolve
+IP-CIDR,158.85.61.192/27,PROXY,no-resolve
+IP-CIDR,158.85.224.160/27,PROXY,no-resolve
+IP-CIDR,158.85.233.32/27,PROXY,no-resolve
+IP-CIDR,158.85.249.128/27,PROXY,no-resolve
+IP-CIDR,158.85.254.64/27,PROXY,no-resolve
+IP-CIDR,169.44.23.192/27,PROXY,no-resolve
+IP-CIDR,169.44.36.0/25,PROXY,no-resolve
+IP-CIDR,169.44.57.64/27,PROXY,no-resolve
+IP-CIDR,169.44.58.64/27,PROXY,no-resolve
+IP-CIDR,169.44.80.0/26,PROXY,no-resolve
+IP-CIDR,169.44.82.96/27,PROXY,no-resolve
+IP-CIDR,169.44.82.128/27,PROXY,no-resolve
+IP-CIDR,169.44.82.192/26,PROXY,no-resolve
+IP-CIDR,169.44.83.0/26,PROXY,no-resolve
+IP-CIDR,169.44.83.96/27,PROXY,no-resolve
+IP-CIDR,169.44.83.128/27,PROXY,no-resolve
+IP-CIDR,169.44.83.192/26,PROXY,no-resolve
+IP-CIDR,169.44.84.0/24,PROXY,no-resolve
+IP-CIDR,169.44.85.64/27,PROXY,no-resolve
+IP-CIDR,169.44.87.160/27,PROXY,no-resolve
+IP-CIDR,169.44.167.0/27,PROXY,no-resolve
+IP-CIDR,169.45.71.32/27,PROXY,no-resolve
+IP-CIDR,169.45.71.96/27,PROXY,no-resolve
+IP-CIDR,169.45.87.128/26,PROXY,no-resolve
+IP-CIDR,169.45.169.192/27,PROXY,no-resolve
+IP-CIDR,169.45.182.96/27,PROXY,no-resolve
+IP-CIDR,169.45.210.64/27,PROXY,no-resolve
+IP-CIDR,169.45.214.224/27,PROXY,no-resolve
+IP-CIDR,169.45.219.224/27,PROXY,no-resolve
+IP-CIDR,169.45.237.192/27,PROXY,no-resolve
+IP-CIDR,169.45.238.32/27,PROXY,no-resolve
+IP-CIDR,169.45.248.96/27,PROXY,no-resolve
+IP-CIDR,169.45.248.160/27,PROXY,no-resolve
+IP-CIDR,169.46.52.224/27,PROXY,no-resolve
+IP-CIDR,169.46.111.144/28,PROXY,no-resolve
+IP-CIDR,169.47.5.192/26,PROXY,no-resolve
+IP-CIDR,169.47.6.64/27,PROXY,no-resolve
+IP-CIDR,169.47.33.128/27,PROXY,no-resolve
+IP-CIDR,169.47.35.32/27,PROXY,no-resolve
+IP-CIDR,169.47.37.128/27,PROXY,no-resolve
+IP-CIDR,169.47.40.128/27,PROXY,no-resolve
+IP-CIDR,169.47.42.96/27,PROXY,no-resolve
+IP-CIDR,169.47.42.160/27,PROXY,no-resolve
+IP-CIDR,169.47.42.192/26,PROXY,no-resolve
+IP-CIDR,169.47.47.160/27,PROXY,no-resolve
+IP-CIDR,169.47.130.96/27,PROXY,no-resolve
+IP-CIDR,169.47.192.192/27,PROXY,no-resolve
+IP-CIDR,169.47.194.128/27,PROXY,no-resolve
+IP-CIDR,169.47.198.128/27,PROXY,no-resolve
+IP-CIDR,169.47.212.160/27,PROXY,no-resolve
+IP-CIDR,169.53.29.128/27,PROXY,no-resolve
+IP-CIDR,169.53.48.32/27,PROXY,no-resolve
+IP-CIDR,169.53.71.224/27,PROXY,no-resolve
+IP-CIDR,169.53.81.64/27,PROXY,no-resolve
+IP-CIDR,169.53.250.128/26,PROXY,no-resolve
+IP-CIDR,169.53.252.64/27,PROXY,no-resolve
+IP-CIDR,169.53.255.64/27,PROXY,no-resolve
+IP-CIDR,169.54.2.160/27,PROXY,no-resolve
+IP-CIDR,169.54.44.224/27,PROXY,no-resolve
+IP-CIDR,169.54.51.32/27,PROXY,no-resolve
+IP-CIDR,169.54.55.192/27,PROXY,no-resolve
+IP-CIDR,169.54.193.160/27,PROXY,no-resolve
+IP-CIDR,169.54.210.0/27,PROXY,no-resolve
+IP-CIDR,169.54.222.128/27,PROXY,no-resolve
+IP-CIDR,169.55.67.224/27,PROXY,no-resolve
+IP-CIDR,169.55.69.128/26,PROXY,no-resolve
+IP-CIDR,169.55.74.32/27,PROXY,no-resolve
+IP-CIDR,169.55.75.96/27,PROXY,no-resolve
+IP-CIDR,169.55.100.160/27,PROXY,no-resolve
+IP-CIDR,169.55.126.64/26,PROXY,no-resolve
+IP-CIDR,169.55.210.96/27,PROXY,no-resolve
+IP-CIDR,169.55.235.160/27,PROXY,no-resolve
+IP-CIDR,173.192.162.32/27,PROXY,no-resolve
+IP-CIDR,173.192.219.128/27,PROXY,no-resolve
+IP-CIDR,173.192.222.160/27,PROXY,no-resolve
+IP-CIDR,173.192.231.32/27,PROXY,no-resolve
+IP-CIDR,173.193.205.0/27,PROXY,no-resolve
+IP-CIDR,173.193.230.96/27,PROXY,no-resolve
+IP-CIDR,173.193.230.128/27,PROXY,no-resolve
+IP-CIDR,173.193.230.192/27,PROXY,no-resolve
+IP-CIDR,173.193.239.0/27,PROXY,no-resolve
+IP-CIDR,174.36.208.128/27,PROXY,no-resolve
+IP-CIDR,174.36.210.32/27,PROXY,no-resolve
+IP-CIDR,174.36.251.192/27,PROXY,no-resolve
+IP-CIDR,174.37.199.192/27,PROXY,no-resolve
+IP-CIDR,174.37.217.64/27,PROXY,no-resolve
+IP-CIDR,174.37.243.64/27,PROXY,no-resolve
+IP-CIDR,174.37.251.0/27,PROXY,no-resolve
+IP-CIDR,179.60.192.51/32,PROXY,no-resolve
+IP-CIDR,179.60.195.51/32,PROXY,no-resolve
+IP-CIDR,184.173.136.64/27,PROXY,no-resolve
+IP-CIDR,184.173.147.32/27,PROXY,no-resolve
+IP-CIDR,184.173.161.64/32,PROXY,no-resolve
+IP-CIDR,184.173.173.116/32,PROXY,no-resolve
+IP-CIDR,184.173.179.32/27,PROXY,no-resolve
+IP-CIDR,185.60.216.53/32,PROXY,no-resolve
+IP-CIDR,185.60.218.53/32,PROXY,no-resolve
+IP-CIDR,185.60.219.53/32,PROXY,no-resolve
+IP-CIDR,192.155.212.192/27,PROXY,no-resolve
+IP-CIDR,198.11.193.182/31,PROXY,no-resolve
+IP-CIDR,198.11.251.32/27,PROXY,no-resolve
+IP-CIDR,198.23.80.0/27,PROXY,no-resolve
+IP-CIDR,208.43.115.192/27,PROXY,no-resolve
+IP-CIDR,208.43.117.79/32,PROXY,no-resolve
+IP-CIDR,208.43.122.128/27,PROXY,no-resolve
+
+
+## gfwlist
+#__GFWLIST__#
+
+
+# gfw补充&自定义PROXY Rules
+DOMAIN-SUFFIX,inoreader.com,PROXY
+DOMAIN-SUFFIX,newsblur.com,PROXY
+DOMAIN-SUFFIX,ekladata.com,PROXY
+DOMAIN-KEYWORD,wakamoment,PROXY
+DOMAIN-SUFFIX,freeid.xyz,PROXY
+DOMAIN-SUFFIX,gdaily.org,PROXY
+DOMAIN-SUFFIX,my.backcn.net,PROXY
+DOMAIN-SUFFIX,quora.com,PROXY
+DOMAIN-SUFFIX,softs.wtf,PROXY
+DOMAIN-SUFFIX,twreporter.org,PROXY
+DOMAIN-SUFFIX,tampermonkey.net,PROXY
+DOMAIN-SUFFIX,69img.com,PROXY
+DOMAIN-SUFFIX,79img.com,PROXY
+
+DOMAIN-SUFFIX,btlibrary.xyz,PROXY
+DOMAIN-SUFFIX,cnbtkitty.com,PROXY
+
+DOMAIN-SUFFIX,fanqianglu.com,PROXY
+DOMAIN-SUFFIX,avgoogle.net,PROXY
+DOMAIN-SUFFIX,blogjav.net,PROXY
+DOMAIN-SUFFIX,kissjav.com,PROXY
+DOMAIN-SUFFIX,xxx-av.com,PROXY
+DOMAIN-SUFFIX,javstream.com,PROXY
+DOMAIN-SUFFIX,javfinder.is,PROXY
+DOMAIN-SUFFIX,jav321.com,PROXY
+DOMAIN-SUFFIX,jav-free.org,PROXY
+DOMAIN-SUFFIX,javlib.com,PROXY
+DOMAIN-SUFFIX,maomiav.com,PROXY
+DOMAIN-SUFFIX,goodav17.com,PROXY
+DOMAIN-SUFFIX,porn87.com,PROXY
+DOMAIN-SUFFIX,caribbeancompr.com,PROXY
+DOMAIN-SUFFIX,pikkur.com,PROXY
+DOMAIN-SUFFIX,heydouga.com,PROXY
+DOMAIN-SUFFIX,hjd2048.com,PROXY
+
+
+# GeoIP China
+#__GEOIPList__#
+
+# Local Area Network
+GEOIP,private,DIRECT
+
+FINAL,DIRECT
+
+[DnsServer]
+223.5.5.5,53,LOCAL
+114.114.114.114
+8.8.8.8,53,REMOTE
+8.8.4.4
+
+
+[DnsRule]
+DOMAIN-KEYWORD,geosite:cn,LOCAL
+# (DNS Cache Pollution Protection)
+# > Google
+DOMAIN-SUFFIX,appspot.com,REMOTE
+DOMAIN-SUFFIX,blogger.com,REMOTE
+DOMAIN-SUFFIX,getoutline.org,REMOTE
+DOMAIN-SUFFIX,gvt0.com,REMOTE
+DOMAIN-SUFFIX,gvt1.com,REMOTE
+DOMAIN-SUFFIX,gvt3.com,REMOTE
+DOMAIN-SUFFIX,googleapis.com,REMOTE
+DOMAIN-SUFFIX,googlevideo.com,REMOTE
+DOMAIN-SUFFIX,youtube.com,REMOTE
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,REMOTE
+DOMAIN-KEYWORD,google,REMOTE
+DOMAIN-KEYWORD,blogspot,REMOTE
+# > Facebook
+DOMAIN-SUFFIX,cdninstagram.com,REMOTE
+DOMAIN-SUFFIX,fb.me,REMOTE
+DOMAIN-SUFFIX,fbcdn.net,REMOTE
+DOMAIN-SUFFIX,instagram.com,REMOTE
+DOMAIN-SUFFIX,messenger.com,REMOTE
+DOMAIN-SUFFIX,whatsapp.com,REMOTE
+DOMAIN-SUFFIX,whatsapp.net,REMOTE
+DOMAIN-SUFFIX,oculus.com,REMOTE
+DOMAIN-SUFFIX,oculuscdn.com,REMOTE
+DOMAIN-KEYWORD,facebook,REMOTE
+# > Twitter
+DOMAIN-SUFFIX,t.co,REMOTE
+DOMAIN-SUFFIX,twimg.co,REMOTE
+DOMAIN-SUFFIX,twimg.com,REMOTE
+DOMAIN-SUFFIX,twitpic.com,REMOTE
+DOMAIN-SUFFIX,twitter.com,REMOTE
+# > Line
+DOMAIN-SUFFIX,line.me,REMOTE
+DOMAIN-SUFFIX,line-apps.com,REMOTE
+DOMAIN-SUFFIX,line-scdn.net,REMOTE
+DOMAIN-SUFFIX,naver.jp,REMOTE
+# > Other
+DOMAIN-KEYWORD,wakamomet,REMOTE
+DOMAIN-KEYWORD,jav,REMOTE
+DOMAIN-KEYWORD,pinterest,REMOTE
+DOMAIN-KEYWORD,porn,REMOTE
+DOMAIN-SUFFIX,abc.net.au,REMOTE
+DOMAIN-SUFFIX,amazon.co.jp,REMOTE
+DOMAIN-SUFFIX,apk-dl.com,REMOTE
+DOMAIN-SUFFIX,apkpure.com,REMOTE
+DOMAIN-SUFFIX,ask.com,REMOTE
+DOMAIN-SUFFIX,avgle.com,REMOTE
+DOMAIN-SUFFIX,bandwagonhost.com,REMOTE
+DOMAIN-SUFFIX,bbc.com,REMOTE
+DOMAIN-SUFFIX,behance.net,REMOTE
+DOMAIN-SUFFIX,bibox.com,REMOTE
+DOMAIN-SUFFIX,binance.com,REMOTE
+DOMAIN-SUFFIX,bitfinex.com,REMOTE
+DOMAIN-SUFFIX,booklive.jp,REMOTE
+DOMAIN-SUFFIX,bwh1.net,REMOTE
+DOMAIN-SUFFIX,cbc.ca,REMOTE
+DOMAIN-SUFFIX,dailymotion.com,REMOTE
+DOMAIN-SUFFIX,deezer.com,REMOTE
+DOMAIN-SUFFIX,discordapp.net,REMOTE
+DOMAIN-SUFFIX,dropbox.com,REMOTE
+DOMAIN-SUFFIX,dropboxusercontent.com,REMOTE
+DOMAIN-SUFFIX,duckduckgo.com,REMOTE
+DOMAIN-SUFFIX,feedly.com,REMOTE
+DOMAIN-SUFFIX,flickr.com,REMOTE
+DOMAIN-SUFFIX,gate.io,REMOTE
+DOMAIN-SUFFIX,goodreads.com,REMOTE
+DOMAIN-SUFFIX,hbg.com,REMOTE
+DOMAIN-SUFFIX,huobi.pro,REMOTE
+DOMAIN-SUFFIX,initiummall.com,REMOTE
+DOMAIN-SUFFIX,jkforum.net,REMOTE
+DOMAIN-SUFFIX,kakao.com,REMOTE
+DOMAIN-SUFFIX,medium.com,REMOTE
+DOMAIN-SUFFIX,mega.nz,REMOTE
+DOMAIN-SUFFIX,naver.com,REMOTE
+DOMAIN-SUFFIX,nyt.com,REMOTE
+DOMAIN-SUFFIX,nytco.com,REMOTE
+DOMAIN-SUFFIX,nytimes.com,REMOTE
+DOMAIN-SUFFIX,nytstyle.com,REMOTE
+DOMAIN-SUFFIX,ok.ru,REMOTE
+DOMAIN-SUFFIX,okex.com,REMOTE
+DOMAIN-SUFFIX,pinimg.com,REMOTE
+DOMAIN-SUFFIX,pixiv.net,REMOTE
+DOMAIN-SUFFIX,pornhub.com,REMOTE
+DOMAIN-SUFFIX,quora.com,REMOTE
+DOMAIN-SUFFIX,reddit.com,REMOTE
+DOMAIN-SUFFIX,redditmedia.com,REMOTE
+DOMAIN-SUFFIX,reuters.com,REMOTE
+DOMAIN-SUFFIX,scribd.com,REMOTE
+DOMAIN-SUFFIX,shadowsocks.org,REMOTE
+DOMAIN-SUFFIX,slideshare.net,REMOTE
+DOMAIN-SUFFIX,soundcloud.com,REMOTE
+DOMAIN-SUFFIX,steamcommunity.com,REMOTE
+DOMAIN-SUFFIX,telegram.org,REMOTE
+DOMAIN-SUFFIX,theinitium.com,REMOTE
+DOMAIN-SUFFIX,tineye.com,REMOTE
+DOMAIN-SUFFIX,tumblr.com,REMOTE
+DOMAIN-SUFFIX,turbobit.net,REMOTE
+DOMAIN-SUFFIX,twitch.tv,REMOTE
+DOMAIN-SUFFIX,uptodown.com,REMOTE
+DOMAIN-SUFFIX,v2ray.com,REMOTE
+DOMAIN-SUFFIX,vimeo.com,REMOTE
+DOMAIN-SUFFIX,vine.co,REMOTE
+DOMAIN-SUFFIX,voachinese.com,REMOTE
+DOMAIN-SUFFIX,whoer.net,REMOTE
+DOMAIN-SUFFIX,wikipedia.org,REMOTE
+DOMAIN-SUFFIX,wsj.com,REMOTE
+DOMAIN-SUFFIX,wsj.net,REMOTE
+DOMAIN-SUFFIX,xvideos.com,REMOTE
+DOMAIN-SUFFIX,yahoo.com,REMOTE
+DOMAIN-SUFFIX,issuu.com,REMOTE
+DOMAIN-SUFFIX,disqus.com,REMOTE
+DOMAIN,onedrive.live.com,REMOTE
+
+[DnsHost]
+localhost=127.0.0.1
+www.localnetwork.uop=127.0.0.1
+
+[DnsClientIp]
+115.239.211.92
+
+[RoutingDomainStrategy]
+IPIfNonMatch

@@ -1,0 +1,4 @@
+# SpeedTest
+USER-AGENT,Speedtest*,DIRECT
+HOST-SUFFIX,speedtest.net,DIRECT
+HOST-SUFFIX,ooklaserver.net,DIRECT

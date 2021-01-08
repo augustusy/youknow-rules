@@ -1,0 +1,14 @@
+hostname = github.com, raw.githubusercontent.com, github.githubassets.com, customer-stories-feed.github.com,
+
+
+# Github反代(https://cjh0613.com/githubproxy.html, https://doc.fastgit.org/zh-cn/)
+# 无缓存
+^https://github.com url 302 https://hub.fastgit.org/$1
+^https://raw.githubusercontent.com url 302 https://raw.fastgit.org/$2
+^https://github.githubassets.com url 302 https://assets.fastgit.org/$3
+# 缓存60分钟
+^https://customer-stories-feed.github.com url 302 https://customer-stories-feed.fastgit.org/$4
+
+
+
+

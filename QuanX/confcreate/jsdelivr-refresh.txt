@@ -1,0 +1,5 @@
+ChinaIPList
+https://purge.jsdelivr.net/gh/17mon/china_ip_list/china_ip_list.txt
+
+uBlockfilters
+https://purge.jsdelivr.net/gh/uBlockOrigin/uAssets/filters/filters.txt

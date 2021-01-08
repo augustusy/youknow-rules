@@ -1,0 +1,8 @@
+﻿## 广告屏蔽白名单
+
+#HOST-SUFFIX,,DIRECT
+#IP-CIDR,,DIRECT
+
+# tsyndicate用于检查是否有ADB的域名
+HOST,cdn.tsyndicate.com,PROXY
+HOST,syndicate.exosrv.com,PROXY

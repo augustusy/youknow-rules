@@ -1,0 +1,4 @@
+hostname = ajax.googleapis.com
+
+# Google Libraries 反代(https://cdn.con.sh/)
+^https://ajax.googleapis.com/ajax/ url 302 https://cdn.staticdn.net/gajax/$2
