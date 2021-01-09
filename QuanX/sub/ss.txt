@@ -8,9 +8,7 @@
 #shadowsocks=example.com:443, method=aes-128-gcm, password=pwd, obfs=wss, obfs-uri=/ws, tls13=true, fast-open=false, udp-relay=false, tag=【ss-ws-tls-02】
 
 
-#https://gitlab.com/free9999/ipupdate/-/raw/master/SS/ssconfig.txt
-shadowsocks=45.66.156.41:11111, method=aes-256-gcm, password=dongtaiwang.com 123abc, fast-open=false, udp-relay=false, tag=SS1(aes-256-gcm|no-tls)
+shadowsocks=12.34.56.78:443, method=aes-256-gcm, password=123abc, fast-open=false, udp-relay=false, tag=SS1(aes-256-gcm|no-tls)
 
-#https://cdn.jsdelivr.net/gh/Alvin9999/pac2@latest/SS/ssconfig.txt
-#shadowsocks=89.163.224.92:22222, method=aes-256-gcm, password=dongtaiwang.com 123abc, fast-open=false, udp-relay=false, tag=SS2(aes-256-gcm|no-tls)
+
 

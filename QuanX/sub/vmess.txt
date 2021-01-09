@@ -11,15 +11,15 @@
 #vmess=192.168.1.1:443, method=chacha20-poly1305, password=23ad6b10-8d1a-40f7-8ad0-e3e35cd32291, obfs=wss, obfs-host=example.com, obfs-uri=/ws, tls13=true, fast-open=false, udp-relay=false, tag=【vmess-ws-tls-03】
 
 
-#https://gitlab.com/free9999/ipupdate/-/raw/master/v2rayN/guiNConfig.json
-vmess=tr7.free5555.xyz:443, method=aes-128-gcm, password=8c4ecf2b-e239-484b-9a87-0547f8a50431, obfs=wss, obfs-host=tr7.free5555.xyz, obfs-uri=/ray, tls13=true, fast-open=false, udp-relay=false, tag=VMess1(ws-tls)
 
-#https://cdn.jsdelivr.net/gh/Alvin9999/PAC@latest/guiNConfig.json
-vmess=tr5.free5555.xyz:443, method=aes-128-gcm, password=5a82e792-d5f7-409b-835b-29e0137c6664, obfs=wss, obfs-host=tr5.free5555.xyz, obfs-uri=/ray, tls13=true, fast-open=false, udp-relay=false, tag=VMess2(ws-tls)
+vmess=tr7.123.xyz:443, method=aes-128-gcm, password=8c4ecf2b-e239-484b-9a87-0547f8a50431, obfs=wss, obfs-host=tr7.free5555.xyz, obfs-uri=/ray, tls13=true, fast-open=false, udp-relay=false, tag=VMess1(ws-tls)
 
-#https://gitlab.com/free9999/ipupdate/-/raw/master/v2rayN/2/guiNConfig.json
-#vmess=tr10.free5555.xyz:443, method=aes-128-gcm, password=0e6e945d-50a4-4be2-a509-c6952ec5ec58, obfs=wss, obfs-host=tr10.free5555.xyz, obfs-uri=/dongtaiwang.com, tls13=true, fast-open=false, udp-relay=false, tag=VMess3(ws-tls)
 
-#https://cdn.jsdelivr.net/gh/Alvin9999/PAC@latest/2/guiNConfig.json
-vmess=tr5.free5555.xyz:443, method=aes-128-gcm, password=5a82e792-d5f7-409b-835b-29e0137c6664, obfs=wss, obfs-host=tr5.free5555.xyz, obfs-uri=/ray, tls13=true, fast-open=false, udp-relay=false, tag=VMess4(ws-tls)
+vmess=tr5.123.xyz:443, method=aes-128-gcm, password=5a82e792-d5f7-409b-835b-29e0137c6664, obfs=wss, obfs-host=tr5.free5555.xyz, obfs-uri=/ray, tls13=true, fast-open=false, udp-relay=false, tag=VMess2(ws-tls)
+
+
+#vmess=tr10.123.xyz:443, method=aes-128-gcm, password=0e6e945d-50a4-4be2-a509-c6952ec5ec58, obfs=wss, obfs-host=tr10.free5555.xyz, obfs-uri=/dongtaiwang.com, tls13=true, fast-open=false, udp-relay=false, tag=VMess3(ws-tls)
+
+
+vmess=tr5.123.xyz:443, method=aes-128-gcm, password=5a82e792-d5f7-409b-835b-29e0137c6664, obfs=wss, obfs-host=tr5.free5555.xyz, obfs-uri=/ray, tls13=true, fast-open=false, udp-relay=false, tag=VMess4(ws-tls)
 
