@@ -570,12 +570,13 @@ HOST,btrace.qq.com,REJECT
 HOST,mtrace.qq.com,REJECT
 HOST,oth.eve.mdt.qq.com,REJECT
 HOST,pgdt.gtimg.cn,REJECT
-HOST,pingma.qq.com,REJECT
+HOST-SUFFIX,pingma.qq.com,REJECT
 HOST,pingtcss.qq.com,REJECT
 HOST,splashqqlive.gtimg.com,REJECT
 HOST,tajs.qq.com,REJECT
 HOST,wxsnsdy.wxs.qq.com,REJECT
 HOST,wxsnsdythumb.wxs.qq.com,REJECT
+HOST-SUFFIX,beacon.qq.com,REJECT
 # > The Paper
 HOST,imgadpai.thepaper.cn,REJECT
 HOST,admonitor.thepaper.cn,REJECT
@@ -5505,7 +5506,6 @@ HOST-SUFFIX,ping.pinyin.sogou.com,REJECT
 HOST-SUFFIX,ping.weiduofan.com,REJECT
 HOST-SUFFIX,pingbi.diudou.com,REJECT
 HOST-SUFFIX,pingdom.net,REJECT
-HOST-SUFFIX,pingma.qq.com,REJECT
 HOST-SUFFIX,pingshetrip.com,REJECT
 HOST-SUFFIX,pintour.com,REJECT
 HOST-SUFFIX,pinzhitmall.com,REJECT
