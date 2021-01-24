@@ -961,6 +961,7 @@ HOST-SUFFIX,u1.img.mobile.sina.cn,REJECT
 HOST,sax.sina.com.cn,REJECT
 HOST,saxs.sina.com.cn,REJECT
 HOST,saxn.sina.com.cn,REJECT
+HOST-SUFFIX,staticadm.leju.sina.com.cn,REJECT
 HOST-SUFFIX,atm.sina.com,REJECT
 HOST-SUFFIX,oascentral.sina.com,REJECT
 HOST-SUFFIX,pfpip.sina.com,REJECT
@@ -4324,7 +4325,6 @@ HOST-SUFFIX,leeyuoxs.com,REJECT
 HOST-SUFFIX,adm.leju.com,REJECT
 HOST-SUFFIX,src.leju.com,REJECT
 HOST-SUFFIX,staticadm.leju.com,REJECT
-HOST-SUFFIX,staticadm.leju.sina.com.cn,REJECT
 HOST-SUFFIX,lele999.com,REJECT
 HOST-SUFFIX,adapi.lenovogame.com,REJECT
 HOST-SUFFIX,adcore.lenovomm.com,REJECT
