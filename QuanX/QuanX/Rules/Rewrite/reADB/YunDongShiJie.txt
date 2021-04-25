@@ -1,0 +1,4 @@
+﻿hostname = *.iydsj.com,
+
+# > 运动世界
+^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad url reject-200

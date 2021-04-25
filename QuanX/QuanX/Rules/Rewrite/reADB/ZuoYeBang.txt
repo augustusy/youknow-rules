@@ -1,0 +1,4 @@
+﻿hostname = www.zybang.com,
+
+# > 作业帮
+^https?:\/\/www\.zybang\.com\/adx\/ url reject-200

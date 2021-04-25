@@ -1,0 +1,4 @@
+﻿hostname = www.inoreader.com,
+
+# 广告-Inoreader
+^https?://www\.inoreader\.com/adv/ url reject-img

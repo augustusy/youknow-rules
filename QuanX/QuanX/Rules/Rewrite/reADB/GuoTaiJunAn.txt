@@ -1,0 +1,4 @@
+﻿hostname = dl.app.gtja.com,
+
+# > 国泰君安
+^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+\.jpg$ url reject-200

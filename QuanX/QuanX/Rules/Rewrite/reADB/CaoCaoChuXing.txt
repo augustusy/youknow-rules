@@ -1,0 +1,4 @@
+﻿hostname = cap.caocaokeji.cn,
+
+# > 曹操出行
+^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ url reject-2000

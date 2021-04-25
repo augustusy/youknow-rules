@@ -1,0 +1,7 @@
+﻿hostname = 3gimg.qq.com, 4gimg.map.qq.com,
+
+# > 腾讯
+# >> 腾讯地图
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ url reject-200
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ url reject-200
+^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ url reject-200

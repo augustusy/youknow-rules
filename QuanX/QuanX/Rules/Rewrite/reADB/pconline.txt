@@ -1,0 +1,8 @@
+﻿hostname = agent-count.pconline.com.cn, mrobot.pconline.com.cn, mrobot.pcauto.com.cn
+
+# > 太平洋
+^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ url reject-200
+^https?:\/\/mrobot\.pconline\.com\.cn\/v\d\/ad2p url reject-200
+^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/ url reject-200
+^https?:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p url reject-200
+^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp url reject-200

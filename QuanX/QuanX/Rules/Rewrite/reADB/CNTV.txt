@@ -1,0 +1,7 @@
+﻿hostname = cntv.hls.cdn.myqcloud.com, asp.cntv.myalicdn.com, www.cntv.cn, v.cctv.com
+
+# > CNTV
+^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 url reject-200
+^https?:\/\/asp\.cntv\.myalicdn\.com\/.+\?maxbr=850 url reject-200
+^https?:\/\/www\.cntv\.cn\/nettv\/adp\/ url reject-200
+^https?:\/\/v\.cctv\.com\/.+850 url reject-200

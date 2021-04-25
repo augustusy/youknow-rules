@@ -1,0 +1,4 @@
+﻿hostname = foodie-api.yiruikecorp.com,
+
+# > Foodie
+^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview url reject-200

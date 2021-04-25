@@ -1,0 +1,4 @@
+﻿hostname = api.vistopia.com.cn,
+
+# > 看理想
+^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement url reject-dict

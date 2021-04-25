@@ -1,0 +1,4 @@
+﻿hostname = api.21jingji.com,
+
+# > 21经济
+^https?:\/\/api\.21jingji\.com\/ad\/ url reject-200

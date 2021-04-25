@@ -1,0 +1,4 @@
+﻿hostname = www.dandanzan.com,
+
+# > 蛋蛋赞
+^https?:\/\/www\.dandanzan\.com\/res\/gdsefse\.js url reject-200

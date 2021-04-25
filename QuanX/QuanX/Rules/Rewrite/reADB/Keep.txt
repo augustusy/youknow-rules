@@ -1,0 +1,5 @@
+﻿hostname = api.gotokeep.com, static1.keepcdn.com
+
+# > Keep
+^https?:\/\/api\.gotokeep\.com\/ads url reject-200
+^https?:\/\/static1\.keepcdn\.com\/.+\d{3}x\d{4} url reject-200

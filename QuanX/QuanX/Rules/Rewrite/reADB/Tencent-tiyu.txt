@@ -1,0 +1,5 @@
+﻿hostname = news.ssp.qq.com,
+
+# > 腾讯
+# >> 腾讯体育
+^https?:\/\/news\.ssp\.qq\.com\/app url reject-200

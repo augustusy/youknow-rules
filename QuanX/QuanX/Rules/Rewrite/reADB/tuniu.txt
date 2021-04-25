@@ -1,0 +1,4 @@
+﻿hostname = m.tuniu.com,
+
+# > 途牛
+^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ url reject-200

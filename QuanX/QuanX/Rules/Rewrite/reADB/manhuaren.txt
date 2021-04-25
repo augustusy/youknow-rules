@@ -1,0 +1,4 @@
+﻿hostname = mangaapi.manhuaren.com,
+
+# > 漫画人
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds url reject-200

@@ -1,0 +1,5 @@
+﻿hostname = r.inews.qq.com,
+
+# > 腾讯
+# >> 腾讯新闻
+^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) url reject-200

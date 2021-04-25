@@ -1,0 +1,4 @@
+﻿hostname = cdn.moji.com,
+
+# > 墨迹天气
+^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ url reject-200

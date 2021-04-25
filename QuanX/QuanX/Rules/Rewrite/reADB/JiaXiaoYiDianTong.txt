@@ -1,0 +1,5 @@
+﻿hostname = api.jxedt.com, richmanapi.jxedt.com
+
+# > 驾校一点通
+^https?:\/\/api\.jxedt\.com\/ad\/ url reject-200
+^https?:\/\/richmanapi\.jxedt\.com\/api\/ad\/ url reject-200

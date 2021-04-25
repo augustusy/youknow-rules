@@ -1,0 +1,13 @@
+﻿hostname = *.ximalaya.com, fdfs.xmcdn.com, 
+
+# > 喜马拉雅
+^https?:\/\/\w+\.ximalaya\.com\/api\/v\d\/adRealTime url reject-200
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/ting\/preload\/ url reject-200
+
+# 广告-喜马拉雅
+;^https?:\/\/adse.+\.com\/[a-z]{4}\/loading\?appid= url reject
+;^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid= url reject
+;^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid= url reject
+;^https?:\/\/adse\.ximalaya\.com\/ting\?appid= url reject
+;^https?:\/\/fdfs\.xmcdn\.com\/group[0-9]{2}\/M0[0-9A-Z]\/[0-9A-Z]{2}\/[0-9A-Z]{2}\/ url reject
+;^http?:\/\/(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\/vip\/check\/user\/4599724 302

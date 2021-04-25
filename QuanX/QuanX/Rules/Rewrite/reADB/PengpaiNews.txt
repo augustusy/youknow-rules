@@ -1,0 +1,4 @@
+﻿hostname = adpai.thepaper.cn,
+
+# > 澎湃新闻
+^https?:\/\/adpai\.thepaper\.cn\/.+&ad= url reject-200

@@ -1,0 +1,5 @@
+﻿hostname = games.mobileapi.hupu.com, business.msstatic.com
+
+# > 虎扑
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/ url reject-200
+^https?:\/\/business\.msstatic\.com\/advertiser\/ url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = app.api.ke.com,
+
+# > 贝壳找房
+^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage url reject-200

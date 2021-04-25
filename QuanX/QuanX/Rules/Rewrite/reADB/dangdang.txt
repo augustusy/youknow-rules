@@ -1,0 +1,5 @@
+﻿hostname = mapi.dangdang.com, e.dangdang.com, 
+
+# > 当当
+^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init url reject-200
+^https?:\/\/e\.dangdang\.com\/.+getDeviceStartPage url reject-2000

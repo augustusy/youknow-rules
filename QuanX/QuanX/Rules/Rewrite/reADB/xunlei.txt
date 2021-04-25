@@ -1,0 +1,4 @@
+﻿hostname = images.client.vip.xunlei.com,
+
+# > 迅雷
+^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/ url reject-200

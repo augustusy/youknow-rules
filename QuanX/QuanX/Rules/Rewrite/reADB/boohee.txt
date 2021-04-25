@@ -1,0 +1,4 @@
+﻿hostname = status.boohee.com,
+
+# > 薄荷
+^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad url reject-200

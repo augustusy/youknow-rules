@@ -1,0 +1,4 @@
+﻿hostname = www.flyertea.com,
+
+# > 飞客茶馆
+^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis url reject-200

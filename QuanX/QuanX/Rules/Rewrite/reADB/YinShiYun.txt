@@ -1,0 +1,4 @@
+﻿hostname = i.ys7.com,
+
+# > 萤石云视频
+^https?:\/\/i\.ys7\.com\/api\/ads url reject-200

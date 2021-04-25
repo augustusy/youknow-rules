@@ -1,0 +1,4 @@
+﻿hostname = business-cdn.shouji.sogou.com,
+
+# > 搜狗
+^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+\.jpg url reject-200

@@ -1,0 +1,7 @@
+﻿hostname = api.m.mi.com, api.jr.mi.com, api-mifit*.huami.com
+
+# > 小米
+^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject-200
+^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ url reject-200
+^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen url reject-200
+^https?:\/\/api-mifit.+\.huami\.com\/discovery\/mi\/discovery\/.+_ad\? url reject-200

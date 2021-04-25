@@ -1,0 +1,4 @@
+﻿hostname = api.yangkeduo.com,
+
+# > 拼多多
+^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash url reject-200

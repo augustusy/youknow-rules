@@ -1,0 +1,4 @@
+﻿hostname = api.xiachufang.com,
+
+# > 下厨房
+^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ url reject-200

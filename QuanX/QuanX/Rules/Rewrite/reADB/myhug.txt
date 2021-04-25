@@ -1,0 +1,4 @@
+﻿hostname = www.myhug.cn,
+
+# > 抱抱
+^https?:\/\/www\.myhug\.cn\/ad\/ url reject-200

@@ -1,0 +1,5 @@
+﻿hostname = m*.amap.com,
+
+# > 阿里巴巴
+# >> 高德地图
+^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject-200

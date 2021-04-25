@@ -1,0 +1,4 @@
+﻿hostname = capi.mwee.cn,
+
+# > 美味不用等
+^https?:\/\/capi\.mwee\.cn/app-api/V\d{2}/app/(ad|getstartad) url reject-200

@@ -1,0 +1,13 @@
+﻿hostname = dict.youdao.com, gorgon.youdao.com, impservice.dictapp.youdao.com, impservice.youdao.com, *.ydstatic.com, dsp-impr*.youdao.com, oimage*.ydstatic.com,
+
+# 广告-有道
+^https?:\/\/dict\.youdao\.com\/infoline\/style\?client= url reject
+;^https?:\/\/gorgon\.youdao\.com\/gorgon\/request\.s\? url reject
+;^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request\.s\?req= url reject
+;^https?:\/\/impservice\.youdao\.com\/imp\/request\.s\?req= url reject
+^https?:\/\/oimagec[0-9]{1}\.ydstatic\.com\/image\?id=.+&product=adpublish url reject
+^https?:\/\/dsp-impr[0-9]{1}\.youdao\.com\/adload.s\? url reject
+
+# >> 有道词典
+^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish url reject-200
+^https?:\/\/dsp-impr2\.youdao\.com\/adload.s\? url reject-200

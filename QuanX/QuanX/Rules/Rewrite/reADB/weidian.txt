@@ -1,0 +1,4 @@
+﻿hostname = thor.weidian.com,
+
+# > 微店
+^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/ url reject-200

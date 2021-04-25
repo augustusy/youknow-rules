@@ -1,0 +1,4 @@
+﻿hostname = app.wy.guahao.com,
+
+# > 微医
+^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad url reject-200

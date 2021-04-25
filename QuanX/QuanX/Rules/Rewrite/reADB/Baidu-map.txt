@@ -1,0 +1,6 @@
+﻿hostname = ss0.bdstatic.com,
+
+# > 百度
+# >> 百度地图
+# ^https?:\/\/.+\/client\/phpui2\/ url reject-200
+^https?:\/\/ss0\.bdstatic\.com/.+_\d{3}_\d{4}\.jpg url reject-200

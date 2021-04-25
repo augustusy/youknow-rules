@@ -1,0 +1,5 @@
+﻿hostname = mp.weixin.qq.com
+
+# > 腾讯
+# >> 微信
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject-200

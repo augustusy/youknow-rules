@@ -1,0 +1,4 @@
+﻿hostname = image.suning.cn,
+
+# > 苏宁
+^https?:\/\/image\.suning\.cn\/uimg\/ma\/ad\/ url reject-200

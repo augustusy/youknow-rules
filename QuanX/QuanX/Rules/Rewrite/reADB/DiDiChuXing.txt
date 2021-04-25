@@ -1,0 +1,6 @@
+﻿hostname = res.xiaojukeji.com, ct.xiaojukeji.com,
+
+# 滴滴出行-去开屏广告
+^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
+# 滴滴出行-其他
+^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject

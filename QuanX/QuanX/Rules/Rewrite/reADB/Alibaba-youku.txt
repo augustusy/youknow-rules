@@ -1,0 +1,7 @@
+﻿hostname = vali.cp31.ott.cibntv.net
+
+# > 阿里巴巴
+# >> 优酷
+^https?:\/\/.+\.mp4\?ccode=0902 url reject-200
+^https?:\/\/.+\.mp4\?sid= url reject-200
+^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+\.mp4\?sid= url reject-200

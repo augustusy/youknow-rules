@@ -1,0 +1,5 @@
+﻿hostname = portal-xunyou.qingcdn.com,
+
+# > 迅游加速器
+^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) url reject-200
+^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ url reject-200

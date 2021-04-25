@@ -1,0 +1,8 @@
+﻿hostname = iface.iqiyi.com, act.vip.iqiyi.com,
+
+# > 百度
+# >> 爱奇艺
+^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject-200
+^https?:\/\/.+\/(mixer|track2)\? url reject-200
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show.do url reject-200
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = a.apicloud.com,
+
+# > APICloud
+^https?:\/\/a\.apicloud\.com\/start_page\/ url reject-200

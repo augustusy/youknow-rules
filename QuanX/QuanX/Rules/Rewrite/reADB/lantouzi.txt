@@ -1,0 +1,4 @@
+﻿hostname = ios.lantouzi.com,
+
+# > 懒投资
+^https?:\/\/ios\.lantouzi\.com\/api\/startpage url reject-200

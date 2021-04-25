@@ -1,0 +1,7 @@
+﻿hostname = iadmusicmat.music.126.net, iadmusicmatvideo.music.126.net, unidesk.alicdn.com
+
+# 广告-网易云音乐app启动
+^http?:\/\/iadmusicmat\.music\.126\.net\/[0-9a-z]{32}\.jpg\?type\=jpg\&imageView\=1 url reject
+^http?:\/\/iadmusicmat\.music\.126\.net\/[0-9a-z]{32}\.jpg url reject
+^http?:\/\/iadmusicmatvideo\.music\.126\.net\/[0-9a-z]{32}\.mp4 url reject
+^https?:\/\/unidesk\.alicdn\.com\/[0-9]{6}\/[0-9a-z]{32}\.jpg url reject

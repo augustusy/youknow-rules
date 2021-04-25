@@ -1,0 +1,4 @@
+﻿hostname = tiku.zhan.com,
+
+# > 小站
+^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ url reject-200

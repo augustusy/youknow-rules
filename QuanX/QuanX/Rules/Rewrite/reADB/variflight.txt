@@ -1,0 +1,5 @@
+﻿hostname = app.variflight.com,
+
+# > 飞常准
+^https?:\/\/app\.variflight\.com\/ad\/ url reject-200
+^https?:\/\/app\.variflight\.com\/v\d\/advert\/ url reject-200

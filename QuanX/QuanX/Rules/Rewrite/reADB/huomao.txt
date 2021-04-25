@@ -1,0 +1,4 @@
+﻿hostname = api.huomao.com,
+
+# > 火猫
+^https?:\/\/api\.huomao\.com\/channels\/loginAd url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = img01.10101111cdn.com,
+
+# > 神舟专车
+^https?:\/\/img01\.10101111cdn\.com\/adpos\/ url reject-200

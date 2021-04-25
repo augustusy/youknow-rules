@@ -1,0 +1,4 @@
+﻿hostname = dsa-mfp.fengshows.cn,
+
+# > 凤凰秀
+^https:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+adunitid url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = 7n.bczcdn.com,
+
+# > 百词斩
+^https?:\/\/7n\.bczcdn\.com\/launchad\/ url reject-200

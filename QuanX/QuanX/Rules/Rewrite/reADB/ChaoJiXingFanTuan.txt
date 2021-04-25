@@ -1,0 +1,4 @@
+﻿hostname = g.cdn.pengpengla.com,
+
+# > 超级星饭团
+^https?:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/ url reject-200

@@ -1,0 +1,5 @@
+﻿hostname = api*.futunn.com,
+
+# > 腾讯
+# >> 富途牛牛
+^https?:\/\/api\d\.futunn\.com\/ad\/ url reject-200

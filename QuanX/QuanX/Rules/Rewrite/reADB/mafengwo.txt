@@ -1,0 +1,5 @@
+﻿hostname = mapi.mafengwo.cn,
+
+# > 马蜂窝
+^https?:\/\/mapi\.mafengwo\.cn\/ad\/ url reject-200
+^https?:\/\/mapi\.mafengwo\.cn\/travelguide\/ad\/ url reject-200

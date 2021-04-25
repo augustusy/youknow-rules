@@ -1,0 +1,6 @@
+﻿hostname = dili.bdatu.com, wap.ngchina.cn
+
+# > NationalGeographic
+^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ url reject-200
+# > NationalGeographicChina
+^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/ url reject-200

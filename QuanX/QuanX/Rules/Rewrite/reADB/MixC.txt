@@ -1,0 +1,4 @@
+﻿hostname = app.mixcapp.com,
+
+# > 一点万象
+^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad url reject-200

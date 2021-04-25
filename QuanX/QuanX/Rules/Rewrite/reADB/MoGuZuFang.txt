@@ -1,0 +1,4 @@
+﻿hostname = api.mgzf.com,
+
+# > 蘑菇租房
+^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage url reject-200

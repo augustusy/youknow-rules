@@ -1,0 +1,4 @@
+﻿hostname = api.haohaozhu.cn,
+
+# > 好好住
+^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto url reject-200

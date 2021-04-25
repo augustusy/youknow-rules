@@ -1,0 +1,4 @@
+﻿hostname = smkmp.96225.com,
+
+# > 杭州市·市民卡
+^https?:\/\/smkmp\.96225.com\/smkcenter\/ad/ url reject-200

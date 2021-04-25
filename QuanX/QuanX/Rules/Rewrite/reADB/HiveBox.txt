@@ -1,0 +1,4 @@
+﻿hostname = consumer.fcbox.com,
+
+# > HiveBox
+^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject-200

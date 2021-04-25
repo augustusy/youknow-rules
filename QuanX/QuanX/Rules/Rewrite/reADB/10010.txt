@@ -1,0 +1,5 @@
+﻿hostname = m.client.10010.com,
+
+# > 中国联通
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm url reject-200
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getWelcomeAd|getHomePageAd) url reject-200

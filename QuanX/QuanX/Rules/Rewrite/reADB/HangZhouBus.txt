@@ -1,0 +1,4 @@
+﻿hostname = m.ibuscloud.com,
+
+# > 杭州公交
+^https?:\/\/m\.ibuscloud\.com\/v2\/app\/getStartPage url reject-200

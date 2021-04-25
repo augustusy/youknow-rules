@@ -1,0 +1,4 @@
+﻿hostname = mobi.360doc.com,
+
+# > 360doc
+^https?:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme url reject-200

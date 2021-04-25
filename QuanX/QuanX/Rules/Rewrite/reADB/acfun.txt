@@ -1,0 +1,4 @@
+﻿hostname = aes.acfun.cn,
+
+# > AcFun
+^https?:\/\/aes\.acfun\.cn\/s\?adzones url reject-200

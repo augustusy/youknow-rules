@@ -1,0 +1,6 @@
+﻿hostname = open.qyer.com, media.qyer.com
+
+# > 穷游
+^https?:\/\/open\.qyer\.com\/qyer\/startpage\/ url reject-200
+^https?:\/\/open\.qyer\.com\/qyer\/config\/get url reject-200
+^https?:\/\/media\.qyer\.com\/ad\/ url reject-200

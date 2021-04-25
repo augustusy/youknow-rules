@@ -1,0 +1,4 @@
+﻿hostname = slapi.oray.net,
+
+# > Oray
+^https?:\/\/slapi\.oray\.net\/client\/ad url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = www.shihuo.cn,
+
+# > 识货
+^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo url reject-200

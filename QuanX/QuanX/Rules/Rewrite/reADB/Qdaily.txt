@@ -1,0 +1,5 @@
+﻿hostname = app*.qdaily.com, notch.qdaily.com
+
+# > Qdaily
+^https?:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements\.json url reject-200
+^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad url reject-200

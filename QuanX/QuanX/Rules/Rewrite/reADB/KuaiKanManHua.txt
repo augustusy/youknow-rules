@@ -1,0 +1,4 @@
+﻿hostname = api.kkmh.com,
+
+# > 快看漫画
+^https?:\/\/api\.kkmh\.com\/.+(ad|advertisement)\/ url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = iapi.bishijie.com,
+
+# > 币世界
+^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = api.qiuduoduo.cn,
+
+# > 肆客足球
+^https?:\/\/api\.qiuduoduo\.cn\/guideimage url reject-200

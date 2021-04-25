@@ -1,0 +1,4 @@
+﻿hostname = api.wallstreetcn.com,
+
+# > 华尔街见闻
+^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ url reject-200

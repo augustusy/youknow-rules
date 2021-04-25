@@ -1,0 +1,4 @@
+﻿hostname = img.jiemian.com,
+
+# > 界面新闻
+^https?:\/\/img\.jiemian\.com\/ads\/ url reject-200

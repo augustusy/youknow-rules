@@ -1,0 +1,4 @@
+﻿hostname = overseas.weico.cc,
+
+# > Weico
+^https?:\/\/overseas\.weico\.cc/portal\.php\?a=get_coopen_ads url reject-200

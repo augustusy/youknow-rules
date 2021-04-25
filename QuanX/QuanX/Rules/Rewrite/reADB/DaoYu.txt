@@ -1,0 +1,4 @@
+﻿hostname = daoyu.sdo.com,
+
+# > 叨鱼
+^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd url reject-200

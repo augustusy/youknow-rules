@@ -1,0 +1,4 @@
+﻿hostname = pss.txffp.com,
+
+# > 票根
+^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ url reject-200

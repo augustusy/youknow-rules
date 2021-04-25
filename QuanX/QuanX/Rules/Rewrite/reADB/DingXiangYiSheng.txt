@@ -1,0 +1,4 @@
+﻿hostname = dxy.com,
+
+# > 丁香医生
+^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch url reject-200

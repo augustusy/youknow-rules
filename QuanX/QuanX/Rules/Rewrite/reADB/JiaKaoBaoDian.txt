@@ -1,0 +1,4 @@
+﻿hostname = *.kakamobi.cn,
+
+# > 驾考宝典
+^https?:\/\/.+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = api.waitwaitpay.com,
+
+# > 省点
+^https?:\/\/api\.waitwaitpay\.com\/\/api\/splash url reject-200

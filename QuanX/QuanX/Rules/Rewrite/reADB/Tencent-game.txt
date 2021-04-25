@@ -1,0 +1,6 @@
+﻿hostname = ssl.kohsocialapp.qq.com, qt.qq.com,
+
+# > 腾讯
+# >> 腾讯游戏
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons url reject-200
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info url reject-200

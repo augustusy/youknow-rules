@@ -1,0 +1,4 @@
+﻿hostname = gateway.shouqiev.com,
+
+# > Gofun
+^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject-200

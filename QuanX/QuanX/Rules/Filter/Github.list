@@ -1,4 +1,12 @@
-# github
-USER-AGENT,github*,DIRECT
-HOST-SUFFIX,github.com,DIRECT
-HOST-SUFFIX,githubusercontent.com,DIRECT
+# Github and Gitlab
+
+USER-AGENT,github*,PROXY
+HOST-SUFFIX,git.io,PROXY
+HOST-SUFFIX,github.com,PROXY
+HOST-SUFFIX,github.io,PROXY
+HOST-SUFFIX,githubassets.com,PROXY
+HOST-SUFFIX,githubusercontent.com,PROXY
+HOST-SUFFIX,rawgit.com,PROXY
+HOST-SUFFIX,rawgithub.com,PROXY
+
+HOST-SUFFIX,gitlab.com,PROXY

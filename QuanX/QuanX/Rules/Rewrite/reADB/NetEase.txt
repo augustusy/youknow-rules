@@ -1,0 +1,18 @@
+﻿hostname = appconf.mail.163.com, c.m.163.com, client.mail.163.com, sp.kaola.com, support.you.163.com, easyreadfs.nosdn.127.net, p.du.163.com, *.ydstatic.com, dsp-impr2.youdao.com
+
+# > 网易
+# >> 网易邮箱
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/ url reject-200
+# >> 网易新闻
+^https?:\/\/c\.m\.163\.com\/nc\/gl\/ url reject-200
+# >> 网易有钱
+^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds url reject-200
+# >> 网易云音乐
+^https?:\/\/.+\/eapi\/(ad|log)\/ url reject-200
+# >> 网易考拉
+^https?:\/\/sp\.kaola\.com\/api\/openad url reject-200
+# >> 网易严选
+^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json url reject-200
+# >> 网易蜗牛读书
+^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ url reject-200
+^https?:\/\/p\.du\.163\.com\/ad\/ url reject-200

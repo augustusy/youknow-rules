@@ -1,0 +1,5 @@
+﻿hostname = static.vuevideo.net,
+
+# > VUE
+^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+\/splash_ad url reject-200
+^https?:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/ url reject-200

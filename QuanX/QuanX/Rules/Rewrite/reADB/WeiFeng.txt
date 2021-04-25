@@ -1,0 +1,4 @@
+﻿hostname = api.feng.com,
+
+# > 威锋
+^https?:\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch url reject-200

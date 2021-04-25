@@ -1,0 +1,4 @@
+﻿hostname = mob.mddcloud.com.cn,
+
+# > 埋堆堆
+^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ url reject-200

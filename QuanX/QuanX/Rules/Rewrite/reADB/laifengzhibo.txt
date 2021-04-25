@@ -1,0 +1,4 @@
+﻿hostname = api.laifeng.com,
+
+# > 来疯直播
+^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads url reject-200

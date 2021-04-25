@@ -1,0 +1,8 @@
+﻿hostname = www.zhihu.com, api.zhihu.com
+
+# > 知乎
+^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/ url reject-200
+^https?:\/\/api\.zhihu\.com\/(launch|real_time) url reject-200
+^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time) url reject-200
+^https?:\/\/api\.zhihu\.com\/fringe\/ad url reject-200
+^https?:\/\/api\.zhihu\.com\/ad- url reject-200

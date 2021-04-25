@@ -1,0 +1,4 @@
+﻿hostname = imeclient.openspeech.cn,
+
+# > 讯飞
+^https?:\/\/imeclient\.openspeech\.cn\/adservice\/ url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = b-api.ins.miaopai.com,
+
+# > 秒拍
+^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ url reject-200

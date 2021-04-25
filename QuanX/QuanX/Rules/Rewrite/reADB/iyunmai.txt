@@ -1,0 +1,4 @@
+﻿hostname = restapi.iyunmai.com,
+
+# > 云麦好轻
+^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ url reject-200

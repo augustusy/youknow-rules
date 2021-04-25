@@ -1,0 +1,4 @@
+﻿hostname = gw.aihuishou.com,
+
+# > 爱回收
+^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement url reject-200

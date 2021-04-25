@@ -1,0 +1,7 @@
+﻿hostname = acs.m.taobao.com, render.alipay.com, guide-acs.m.taobao.com,
+
+# > 阿里巴巴
+# >> 口碑
+^https?:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json url reject-200
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ url reject-200
+^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ url reject-200

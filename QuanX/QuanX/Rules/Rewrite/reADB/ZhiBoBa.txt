@@ -1,0 +1,5 @@
+﻿hostname = a.qiumibao.com,
+
+# > 直播吧
+^https?:\/\/a\.qiumibao\.com\/activities\/config\.php url reject-200
+^https?:\/\/.+\/allOne\.php\?ad_name url reject-200

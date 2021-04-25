@@ -1,0 +1,8 @@
+﻿hostname = api.zhuishushenqi.com, b.zhuishushenqi.com,
+
+# > 追书神器
+^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert url reject-200
+^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios url reject-200
+^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage url reject-200
+^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated url reject-200
+^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 url reject-200

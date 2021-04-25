@@ -1,0 +1,4 @@
+﻿hostname = service.4gtv.tv,
+
+# > 四季線上影視4gTV
+^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog) url reject-200

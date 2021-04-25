@@ -1,0 +1,4 @@
+﻿hostname = m.yap.yahoo.com,
+
+# > Yahoo!
+^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = app.yinxiang.com,
+
+# > 印象笔记
+^https?:\/\/app\.yinxiang\.com\/ads\/ url reject-200

@@ -1,0 +1,5 @@
+﻿hostname = api.daydaycook.com.cn, cms.daydaycook.com.cn
+
+# > 日日煮
+^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/ url reject-200
+^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/ url reject-200

@@ -1,0 +1,4 @@
+﻿hostname = cdn.api.fotoable.com,
+
+# > FOTOABLE
+^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/ url reject-200

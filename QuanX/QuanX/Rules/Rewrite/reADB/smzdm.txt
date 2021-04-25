@@ -1,0 +1,9 @@
+﻿hostname = haojia.m.smzdm.com, api.smzdm.com, app-api.smzdm.com, s*.zdmimg.com
+
+# 什么值得买详情页广告
+^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
+
+# > 什么值得买
+^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading url reject-200
+^https?:\/\/app-api\.smzdm\.com\/util\/loading url reject-200
+^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php url reject-200

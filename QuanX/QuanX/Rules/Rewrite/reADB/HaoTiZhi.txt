@@ -1,0 +1,4 @@
+﻿hostname = www.bodivis.com.cn,
+
+# > 好体知
+^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise url reject-200

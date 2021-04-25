@@ -1,0 +1,4 @@
+﻿hostname = api.caijingmobile.com,
+
+# > 财经
+^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/ url reject-200

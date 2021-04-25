@@ -1,0 +1,5 @@
+﻿hostname = acs.m.taobao.com,
+
+# > 阿里巴巴
+# >> 飞猪
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ url reject-200

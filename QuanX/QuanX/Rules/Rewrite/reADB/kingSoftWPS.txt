@@ -1,0 +1,6 @@
+﻿hostname = ios.wps.cn, mobile-pic.cache.iciba.com, *.kingsoft-office-service.com
+
+# > 金山 WPS
+^https?:\/\/ios\.wps\.cn\/ad-statistics-service url reject-200
+^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ url reject-200
+^https?:\/\/\w+\.kingsoft-office-service\.com\/ad url reject-200

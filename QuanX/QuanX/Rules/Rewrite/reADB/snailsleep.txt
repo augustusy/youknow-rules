@@ -1,0 +1,5 @@
+﻿hostname = snailsleep.net,
+
+# > 蜗牛睡眠
+^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? url reject-200
+^https?:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ url reject-200
